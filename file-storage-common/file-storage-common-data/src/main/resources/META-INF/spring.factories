@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.elephascloud.storage.common.data.config.ThrowableConfig,\
+  com.elephascloud.storage.common.data.redis.RedisCacheAutoConfig,\
+  com.elephascloud.storage.common.data.redis.RedisCacheConfig,\
+  com.elephascloud.storage.common.data.redis.RedisCacheManagerConfig,\
+  com.elephascloud.storage.common.data.mybatisplus.MybatisPlusInterceptorConfig

@@ -15,5 +15,14 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
+  <dependencies>
+    <dependency>
+      <groupId>com.elephascloud</groupId>
+      <artifactId>file-storage-common-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.elephascloud</groupId>
+      <artifactId>file-storage-common-data</artifactId>
+    </dependency>
+  </dependencies>
 </project>

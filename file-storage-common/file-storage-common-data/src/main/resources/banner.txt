@@ -1,0 +1,11 @@
+${AnsiColor.BRIGHT_CYAN}        _            _                    _                 _
+${AnsiColor.BRIGHT_CYAN}       | |          | |                  | |               | |
+${AnsiColor.BRIGHT_CYAN}    ___| | ___ _ __ | |__   __ _ ___  ___| | ___  _   _  __| |
+${AnsiColor.BRIGHT_CYAN}   / _ \ |/ _ \ '_ \| '_ \ / _` / __|/ __| |/ _ \| | | |/ _` |
+${AnsiColor.BRIGHT_CYAN}  |  __/ |  __/ |_) | | | | (_| \__ \ (__| | (_) | |_| | (_| |
+${AnsiColor.BRIGHT_CYAN}   \___|_|\___| .__/|_| |_|\__,_|___/\___|_|\___/ \__,_|\__,_|
+${AnsiColor.BRIGHT_CYAN}              | |
+${AnsiColor.BRIGHT_CYAN}              |_|
+
+${AnsiColor.BLUE}>>> SpringCloud-elephascloud platform <<<  ${AnsiColor.BRIGHT_RED} Microservice Architecture
+${AnsiColor.BRIGHT_GREEN} microservice ${spring.application.name} starting ${AnsiColor.MAGENTA} :: based on Spring Boot ${spring-boot.version} :: ${AnsiColor.BRIGHT_BLACK}
