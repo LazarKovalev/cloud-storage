@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>spring-cloud-dependencies-parent</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <version>3.1.1</version>
+    <relativePath/>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>file-storage-common-bom</artifactId>
+  <packaging>pom</packaging>
+  <version>${cloud.version}</version>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <cloud.version>1.0-SNAPSHOT</cloud.version>
+    <jackson.modules>2.13.2</jackson.modules>
+    <mybatis-plus.version>3.5.1</mybatis-plus.version>
+    <druid.version>1.2.9</druid.version>
+    <mysql.connector.version>8.0.28</mysql.connector.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <!--common base -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-base</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+      <!--common core -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-core</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+      <!--common data -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-data</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+      <!--common log -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-log</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+      <!--common mq -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-mq</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+
+      <!--common security -->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-common-security</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+
+      <!--sys-api-->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-sys-api</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+      <!--search-->
+      <dependency>
+        <groupId>com.elephascloud</groupId>
+        <artifactId>file-storage-cloud-search</artifactId>
+        <version>${cloud.version}</version>
+      </dependency>
+
+      <!--mybatis plus extension includes mybatis plus core-->
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-extension</artifactId>
+        <version>${mybatis-plus.version}</version>
+      </dependency>
+      <!--mybatis plus-->
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>${mybatis-plus.version}</version>
+      </dependency>
+      <!--mysql driver-->
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.connector.version}</version>
+      </dependency>
+      <!-- druid -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>${druid.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
